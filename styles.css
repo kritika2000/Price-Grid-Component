@@ -1,0 +1,71 @@
+@import url(https://fonts.google.com/specimen/Karla);
+
+
+body{
+    background-color:  hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.gridContainer{
+    display: grid;
+    height: 500px;
+    width: 600px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header{
+    background-color: white;
+    grid-column: 1 / span 2;
+    padding: 30px;
+}
+.subscription{
+    background-color: hsl(179, 62%, 42%);
+    padding: 30px;
+    color: whitesmoke;
+}
+.info{
+    background-color: hsl(179, 62%, 43%, 0.5);
+    padding: 30px;
+    color: whitesmoke;
+}
+.header h2{
+   
+    color: hsl(179, 62%, 42%);
+}
+.header p:nth-of-type(1){
+    color: hsl(71, 61%, 47%);
+}
+.header p:nth-of-type(2){
+   color: rgb(168, 166, 166);
+   font-size: 14px;
+}
+.subscription p:nth-child(1){
+ font-size: 19px;
+ font-weight: 700;
+ margin-top: 0;
+}
+.subscription span:nth-child(2){
+    font-size: 25px;
+    font-weight: 700;
+}
+.subscription span:nth-child(3){
+    font-size: 13px;
+    color: rgba(248, 244, 244, 0.7);
+}
+.info div{
+    font-size: 19px;
+    font-weight: 700;
+}
+.info p, .subscription p:nth-of-type(2){
+    font-size: 14px;
+    text-align: justify;
+}
+button{
+    height: 40px;
+    width: 100%;
+    background-color: hsl(71, 61%, 47%);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 6px 3px rgb(128, 128, 128, 0.3) ;
+    color: whitesmoke;
+    font-weight: 600px;
+}
+
